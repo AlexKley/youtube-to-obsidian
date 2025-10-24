@@ -122,11 +122,11 @@ Found a bug? Please create an issue with:
 ## 📋 TODO List
 
 ### High Priority
-- [ ] **Add manual tags in popup** ✅ *Completed*
-  - [x] Tags input field in popup
-  - [x] Comma-separated tag parsing
-  - [x] Tag persistence across sessions
-  - [x] Frontmatter integration
+- [ ] **Add manual tags in popup**
+  - [ ] Tags input field in popup
+  - [ ] Comma-separated tag parsing
+  - [ ] Tag persistence across sessions
+  - [ ] Frontmatter integration
   - [ ] Tag suggestions based on previous usage
   - [ ] Predefined tag templates
 
@@ -182,7 +182,7 @@ This extension:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/AlexKley/youtube-to-obsidian?tab=MIT-1-ov-file) file for details.
 
 ## 🙏 Acknowledgments
 
