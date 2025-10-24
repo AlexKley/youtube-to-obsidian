@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "YouTube to Obsidian",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Save YouTube videos as markdown notes to Obsidian vault",
   "permissions": [
     "activeTab",
