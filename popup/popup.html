@@ -1,0 +1,69 @@
+<!-- popup/popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .btn {
+            background: #e46643;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .btn:hover {
+            background: #d35400;
+        }
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .status {
+            font-size: 12px;
+            text-align: center;
+            min-height: 16px;
+        }
+        .success {
+            color: #27ae60;
+        }
+        .error {
+            color: #e74c3c;
+        }
+        .settings-link {
+            text-align: center;
+            margin-top: 8px;
+        }
+        .settings-link a {
+            color: #666;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .settings-link a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="saveBtn" class="btn">Save Video to Obsidian</button>
+        <div id="status" class="status"></div>
+        <div class="settings-link">
+            <a href="#" id="settingsLink">Settings</a>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
