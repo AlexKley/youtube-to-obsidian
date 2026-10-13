@@ -122,13 +122,13 @@ Found a bug? Please create an issue with:
 ## 📋 TODO List
 
 ### High Priority
-- [ ] **Add manual tags in popup**
-  - [ ] Tags input field in popup
-  - [ ] Comma-separated tag parsing
-  - [ ] Tag persistence across sessions
-  - [ ] Frontmatter integration
-  - [ ] Tag suggestions based on previous usage
-  - [ ] Predefined tag templates
+- [x] **Add manual tags in popup**
+  - [x] Tags input field in popup
+  - [x] Comma-separated tag parsing
+  - [x] Tag persistence across sessions
+  - [x] Frontmatter integration
+  - [x] Tag suggestions based on previous usage
+  - [x] Predefined tag templates
 
 - [ ] **Add creation video data from tooltip**
   - [ ] Extract video upload date from YouTube tooltip
@@ -138,11 +138,11 @@ Found a bug? Please create an issue with:
   - [ ] Date formatting options in settings
 
 ### Medium Priority
-- [ ] **Transcript extraction**
-  - [ ] Automatic transcript scraping when available
-  - [ ] Transcript formatting options
-  - [ ] Toggle for including/excluding transcripts
-  - [ ] Multiple language support
+- [x] **Transcript extraction**
+  - [x] Automatic transcript scraping when available
+  - [x] Transcript formatting options
+  - [x] Toggle for including/excluding transcripts
+  - [x] Multiple language support
 
 - [ ] **Advanced templating system**
   - [ ] Customizable markdown templates
